@@ -7,7 +7,7 @@
 /* Section Navbar */
 
   .navbar {
-    background-color: #FFF3CF;
+    background-color: #E8C872;
     width: 100%;
     height: 7%;
     overflow: hidden;
@@ -33,7 +33,7 @@
   }
 
   .navbar a:hover {
-    color: #C9D7DD;
+    color: #fff;
   }
   .img-logo{
     width: 10%;
@@ -51,6 +51,7 @@
 
   }
 
+  
   .name h2{
     font-weight: bold;
     font-size: 3vw;
@@ -78,7 +79,7 @@
 
 .image-bg{
     width: 30%;
-    margin: 33px
+    margin-top: 70px;
 }
 
 /* Button My CV */
@@ -99,52 +100,126 @@
 
 }
 
-
 /* End Button */
 
+
+/* Exprince */
+.info-exprince{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.all-card-exprince{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
   
+
+}
+.info-exprince-card{
+  flex-direction: column;
+  width: 65%;
+  background-color: #E8C872;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+  border-radius: 20px;
+}
+
+
+.info-exprince-card p{
+font-weight: lighter;  font-size: 1.2vw;
+  text-align: start;
+  color: #637A9F;
+  margin: 10px;
+
+
+}
+.info-exprince img{
+  width: 40%;
+  height: auto;
+  margin-left: 60px;
+
+}
+
+
+.exprince{
+
+text-align: center;
+font-size: 5vw;
+font-weight: lighter;
+color: #637A9F;
+margin-bottom: 60px;
+}
+/*  Projects */
 .Project{
 text-align: center;
 font-size: 5vw;
 font-weight: lighter;
 color: #637A9F;
-margin: 1%;
+margin: 4%;
 }
 
 
+.info-contact{
+text-align:center ;
+}
 
-  @media (max-width: 768px) {
-    .navbar {
-        background-color: #FFF3CF;
-        display: flex;
-        justify-content: space-between;
+.info-contact h1{
+  color: #E8C872;
+  font-size: 4vw;
+font-weight: lighter;
+margin: 1%;
+  }
+
+
+  .info-contact h2{
+    color: black;
+    font-size: 4vw;
+  font-weight: lighter;
     }
+  
 
-    .second-nav{
-        display: flex;
-        font-size: 14px;
-        margin-top: 10px;
-    }
+  
 
 
-    .img-logo{
-        width: 60%;
-        height: auto;
-      }
+.icons-contact{
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+}
 
-      
-  .navbar a:hover {
-    color: #9195F6;
-  }
+.Information-contact{
+  margin-bottom: 30px;
+}
 
-  .card-project{
-    flex-direction: column;
-    align-items: center;
-  }
+.Information-contact i{
+  background-color: #E8C872;
+  color:  #637A9F;
+  padding: 8px;
+  font-size: 25px;
+  border-radius: 50% 50% 0 0;
+
+}
+
+.Information-contact h1{
+  font-weight: lighter;
+  font-size: 35px;
+  
+  color: #637A9F; 
+}
+
+.Information-contact a{
+  text-decoration: none;
+}
 
 
-  }
-
+.url-icons{
+  color: black;
+  font-size: 35px;
+  font-weight: lighter;
+}
 
   /* Section Projects */
 
@@ -154,8 +229,6 @@ margin: 1%;
     justify-content: center;
 
   }
-
-
   .card-title {
     color: #E8C872;
     font-size: 1.2em;
@@ -247,5 +320,150 @@ margin: 1%;
 
   /* Contact */
 
+  /* End Text */
 
+  .end-text{
+    text-align: center;
+    background-color: #E8C872;
+    color:#637A9F;
+    font-size:45pxl;
+    font-weight: lighter;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.end-text:hover{
+  color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+      background-color: #FFF3CF;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .second-nav{
+    display: none;
+  }
+
+
+  .navbar h1{
+      width: 5%;
+      height: auto;
+    }
+
+.card-project{
+  flex-direction: column;
+  align-items: center;
+}
+.name h1{
+  font-weight: lighter;
+  font-size: 7vw;
+  margin: 6px;
+  margin-top: 10px;
+}
+
+.name h2{
+  font-weight: bold;
+  font-size: 5vw;
+  margin: 6px;
+}
+
+.name h3{
+  font-weight: lighter;
+  font-size: 5vw;
+  margin: 6px;
+}
+.mashael{
+  color: #E8C872;
+}
+
+.image-bg{
+  width: 50%;
+  margin-top: 9px;
+}
+.butn-cv{
+  margin: 6px;
+  height: 30px;
+  width: 90px;
+  border: none;
+  font-size: 3vw;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.end-text{
+  font-size: 14px;
+}
+.end-text:hover{
+color: #fff;
+}
+
+.Project{
+  text-align: center;
+  font-size: 10vw;
+  font-weight: lighter;
+  color: #637A9F;
+  margin: 13px;
+  }
   
+  .exprince{
+    text-align: center;
+    font-size: 10vw;
+    font-weight: lighter;
+    color: #637A9F;
+    margin: 13px;
+    }
+
+    .all-card-exprince{
+      flex-direction: column;
+      gap:25px;
+      width: 100%;
+      height: 100%;
+    }
+    .info-exprince-card img{
+      width: 38%;
+      margin-left: 60px;
+
+    }
+    .info-exprince-card p{
+      font-size: 4.5vw;
+    }
+
+    .info-contact h1{
+      text-align: center;
+      font-size: 10vw;
+      font-weight: lighter;
+      color: #E8C872;
+      margin: 13px;
+    }
+
+    .info-contact h2{
+      text-align: center;
+      font-size: 10vw;
+      font-weight: lighter;
+      color: black;
+      margin: 13px;
+    }
+    .icons-contact{
+      flex-direction: column;
+      gap: 3px;
+      margin: 0;
+    }
+
+    .url-icons{
+      color: black;
+      font-size: 25px;
+      font-weight: lighter;
+      margin: 0;
+    }
+
+    
+.Information-contact{
+  margin: 0;
+}
+
+}
