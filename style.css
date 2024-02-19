@@ -1,0 +1,251 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Section Navbar */
+
+  .navbar {
+    background-color: #FFF3CF;
+    width: 100%;
+    height: 7%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+
+  }
+
+  .logo-name{
+    margin-top: 3px;
+    font-weight: lighter;
+    color: #637A9F;
+    margin-left: 10px;
+  }
+
+  .navbar a {
+    float: left;
+    color: #637A9F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    color: #C9D7DD;
+  }
+  .img-logo{
+    width: 10%;
+    height: auto;
+  }
+
+  .second-nav{
+    font-size: 20px;
+  }
+
+
+  .name h1{
+    font-weight: lighter;
+    font-size: 4vw;
+
+  }
+
+  .name h2{
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .name h3{
+    font-weight: lighter;
+    font-size: 3vw;
+  }
+
+.mashael{
+    color: #E8C872;
+}
+
+.parent-image-welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-bg{
+    width: 30%;
+    margin: 33px
+}
+
+/* Button My CV */
+.butn-cv{
+    background-color: #E8C872;
+    height: 44px;
+    width: 120px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+        color: #fff;
+        font-size: 17px;
+}
+
+.butn-cv:hover{
+    background-color: #637A9F;
+    color: #fff;
+
+}
+
+
+/* End Button */
+
+  
+.Project{
+text-align: center;
+font-size: 5vw;
+font-weight: lighter;
+color: #637A9F;
+margin: 1%;
+}
+
+
+
+  @media (max-width: 768px) {
+    .navbar {
+        background-color: #FFF3CF;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-nav{
+        display: flex;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+
+    .img-logo{
+        width: 60%;
+        height: auto;
+      }
+
+      
+  .navbar a:hover {
+    color: #9195F6;
+  }
+
+  .card-project{
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  }
+
+
+  /* Section Projects */
+
+
+  .card-project{
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .card-title {
+    color: #E8C872;
+    font-size: 1.2em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: black;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #6293c8, #384c6c);
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+
+  .card {
+    display: block;
+    position: relative;
+    max-width: 300px;
+    max-height: 320px;
+    background-color: #FFF3CF;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #637A9F, #FFF3CF);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #364a60, #384c6c);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card:hover:before {
+    transform: scale(28);
+  }
+  
+  .card:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  
+
+
+
+  /* Contact */
+
+
+  
